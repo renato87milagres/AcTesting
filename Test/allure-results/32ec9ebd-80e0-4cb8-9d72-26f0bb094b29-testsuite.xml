@@ -1,0 +1,371 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522598738353' stop='1522598754612'>
+    <name>Create Task</name>
+    <title>Create Task</title>
+    <test-cases>
+        <test-case start='1522598738354' status='passed' stop='1522598753145'>
+            <name>I should be able to create a task</name>
+            <title>I should be able to create a task</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"Chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Renato\\Desktop\\Test\\test\\ManagerTask.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522598738359' status='passed' stop='1522598745673'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/url</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/url</title>
+                    <attachments>
+                        <attachment title='Request' source='59d59e15-5c2d-4acc-9488-5247b7287ecc-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='6e24263c-514e-4d31-aeea-84d84a8fd13f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598745678' status='passed' stop='1522598745722'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='296dd744-e620-4fca-a2b8-53f3a5722d80-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='b633d0cf-70e6-45ba-9949-06b45fa11969-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598745730' status='passed' stop='1522598745767'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-1/clear</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='e1c88a7b-879f-4a06-a7a5-0ae4b8fa64cd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598745768' status='passed' stop='1522598745981'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-1/value</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1f43d4f7-e929-41b9-8ce9-0502f3de8f7b-attachment.json' type='application/json' size='431'/>
+                        <attachment title='Response' source='38c65cda-0cab-4b3d-b295-ea47dc70883c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598746991' status='passed' stop='1522598747046'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='44683e44-49ef-4145-90cb-e120bee9bc3d-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='8e263715-6699-413d-a6ae-929d4c81ef07-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598747047' status='passed' stop='1522598747073'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-2/clear</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='df1a300a-7b3d-4e57-ba89-cbe0a31f0c3c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598747074' status='passed' stop='1522598747192'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-2/value</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='5c04a476-73a9-4766-adf0-005d17305203-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='25e86aca-c01f-4f5b-af7a-05f1c7580211-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598748208' status='passed' stop='1522598748248'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2d310805-727a-463b-856e-7a7cb5772510-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='58d3c226-b5e4-48d9-b2a5-f8b142ad46fc-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598748252' status='passed' stop='1522598749533'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-3/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.19270934463870226-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='581e4efa-4015-4ee8-8844-a06c9d596099-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598750544' status='passed' stop='1522598751475'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/url</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d819779a-e6af-4d78-b32e-659cb7259c17-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='e7da2e6f-530c-46fd-9c4e-0c9175d5d130-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598751479' status='passed' stop='1522598751507'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/elements</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='119b752f-6a20-4ee4-bdbd-bf59a562d017-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='42341606-3d25-458d-86cd-790ce823de2f-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598751508' status='passed' stop='1522598751607'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-1/clear</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='e4f61119-81fc-4af3-8f34-3efc090fbdf4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598751608' status='passed' stop='1522598751697'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-1/value</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3c17abcc-98f6-4908-bedd-f33caf66c7f6-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='a7bfc734-236e-4776-b89e-4a055ed8335f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598751704' status='passed' stop='1522598751731'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='73892a1b-8d95-41c1-801d-027c3314cbee-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='bb7f0b44-a671-4f7d-a7a7-b45b1b902fea-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598751732' status='passed' stop='1522598751813'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-2/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='a036234d-fc82-4a0d-9bce-f442ba72b248-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598752826' status='passed' stop='1522598752868'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7081cd9-6d4e-4930-a954-905b28e085bb-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='43554902-b0f9-4e31-bd8e-9aa3b95976a3-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598752872' status='passed' stop='1522598753002'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='cffa62e2-fa90-474b-9798-a7b54b27ee6c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753010' status='passed' stop='1522598753073'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/elements</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b952fec0-1b7e-4847-bc49-8e3fe8141ea8-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='35d6b6f8-2885-489a-9262-7faeec33760f-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753074' status='passed' stop='1522598753141'>
+                    <name>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-4/text</name>
+                    <title>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-4/text</title>
+                    <attachments>
+                        <attachment title='Response' source='f21d22f8-5b8e-4019-b968-f0aa7a0cbe8c-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1522598753146' status='broken' stop='1522598753598'>
+            <name>I should be able to create a subtask description &lt; 250 characteres</name>
+            <title>I should be able to create a subtask description &lt; 250 characteres</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"Chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Renato\\Desktop\\Test\\test\\ManagerTask.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522598753151' status='passed' stop='1522598753175'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8d254017-55cb-4a72-bc61-0d09d976c2b0-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='1e2f315d-ff49-4a8d-9bb6-c4dbfe18428a-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753176' status='passed' stop='1522598753236'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='029b2ade-c69f-4c63-9f39-44ffd23fd832-attachment.json' type='application/json' size='871'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753239' status='broken' stop='1522598753598'>
+                    <name>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</name>
+                    <title>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0552c791-f655-4157-bca8-cc51f8e4e9d1-attachment.png' type='image/png' size='49995'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: Element &lt;button class="btn btn-xs btn-primary ng-binding" ng-click="editModal(task)">...&lt;/button> is not clickable at point (803, 314). Other element would receive the click: &lt;div class="modal-body ng-scope">...&lt;/div></message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at elementIdClick("0.776137891670891-3") - C:\Users\Renato\Desktop\Test\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1522598753599' status='broken' stop='1522598753937'>
+            <name>I should be able to create a subtask due date = empty </name>
+            <title>I should be able to create a subtask due date = empty </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"Chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Renato\\Desktop\\Test\\test\\ManagerTask.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522598753600' status='passed' stop='1522598753615'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f4c2f5f0-188b-43bd-ac8a-bfb79062c63c-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='400bf8b6-0e21-4d59-a17b-1215a1a3ace8-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753617' status='passed' stop='1522598753653'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='fb5b15ac-d267-4256-9dfa-3abcb121f9a7-attachment.json' type='application/json' size='871'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753653' status='broken' stop='1522598753937'>
+                    <name>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</name>
+                    <title>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='69379a52-18ff-4500-9fe0-9133f2cfa267-attachment.png' type='image/png' size='49995'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: Element &lt;button class="btn btn-xs btn-primary ng-binding" ng-click="editModal(task)">...&lt;/button> is not clickable at point (803, 314). Other element would receive the click: &lt;div class="modal-body ng-scope">...&lt;/div></message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at elementIdClick("0.776137891670891-3") - C:\Users\Renato\Desktop\Test\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1522598753938' status='broken' stop='1522598754276'>
+            <name>I should be able to create a subtask due date = empty </name>
+            <title>I should be able to create a subtask due date = empty </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"Chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Renato\\Desktop\\Test\\test\\ManagerTask.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522598753939' status='passed' stop='1522598753957'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bea41ecc-7608-4de8-9b41-2445e0533f08-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='2467f04c-d08c-45b2-8a2a-54fb68adb07d-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753957' status='passed' stop='1522598753990'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='b646bdeb-0692-456c-8f74-e8b67af9f2b8-attachment.json' type='application/json' size='871'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598753992' status='broken' stop='1522598754276'>
+                    <name>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</name>
+                    <title>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1c0acab3-7a21-4177-a04c-e5587618d5f3-attachment.png' type='image/png' size='49995'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: Element &lt;button class="btn btn-xs btn-primary ng-binding" ng-click="editModal(task)">...&lt;/button> is not clickable at point (803, 314). Other element would receive the click: &lt;div class="modal-body ng-scope">...&lt;/div></message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at elementIdClick("0.776137891670891-3") - C:\Users\Renato\Desktop\Test\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1522598754277' status='broken' stop='1522598754610'>
+            <name>I should be able to create a subtask due date format mm/dd/yyyy </name>
+            <title>I should be able to create a subtask due date format mm/dd/yyyy </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"Chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Renato\\Desktop\\Test\\test\\ManagerTask.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522598754277' status='passed' stop='1522598754293'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element</title>
+                    <attachments>
+                        <attachment title='Request' source='764dc92a-2699-43f8-83bc-7f5642b26b5c-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='2062fa8a-b529-4666-8e0e-58233d20f021-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598754294' status='passed' stop='1522598754325'>
+                    <name>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</name>
+                    <title>POST /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/element/0.776137891670891-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='a3458f74-5f09-480d-839c-58efc5136885-attachment.json' type='application/json' size='871'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522598754326' status='broken' stop='1522598754610'>
+                    <name>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</name>
+                    <title>GET /wd/hub/session/805bb9e2cbddad1471a69e9b3e0aaead/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fa2b04f9-163d-479a-84d5-f4ea54517d3f-attachment.png' type='image/png' size='49995'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: Element &lt;button class="btn btn-xs btn-primary ng-binding" ng-click="editModal(task)">...&lt;/button> is not clickable at point (803, 314). Other element would receive the click: &lt;div class="modal-body ng-scope">...&lt;/div></message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at elementIdClick("0.776137891670891-3") - C:\Users\Renato\Desktop\Test\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

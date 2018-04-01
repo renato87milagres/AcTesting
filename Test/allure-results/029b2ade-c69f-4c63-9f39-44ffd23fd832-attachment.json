@@ -1,0 +1,9 @@
+{
+    "message": "unknown error: Element <button class=\"btn btn-xs btn-primary ng-binding\" ng-click=\"editModal(task)\">...</button> is not clickable at point (803, 314). Other element would receive the click: <div class=\"modal-body ng-scope\">...</div>",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "unknown error: Element <button class=\"btn btn-xs btn-primary ng-binding\" ng-click=\"editModal(task)\">...</button> is not clickable at point (803, 314). Other element would receive the click: <div class=\"modal-body ng-scope\">...</div>\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86)"
+    }
+}

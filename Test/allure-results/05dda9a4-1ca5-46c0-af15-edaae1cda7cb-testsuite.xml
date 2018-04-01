@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522594782192' stop='1522594793235'>
+    <name>Create Task</name>
+    <title>Create Task</title>
+    <test-cases>
+        <test-case start='1522594782193' status='broken' stop='1522594793233'>
+            <name>I should be able to create a task</name>
+            <title>I should be able to create a task</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"Chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Renato\\Desktop\\Test\\test\\login.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522594782203' status='passed' stop='1522594787214'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/url</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='267fc13d-aa51-4961-ab07-0b258664d551-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='79ecfb4e-8fbc-4913-b686-f36649e4ae1d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594787220' status='passed' stop='1522594787248'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0483d91e-198a-45ba-9174-813439ab4140-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='f1bda6cb-4353-417c-8ff2-7b0b27dd0710-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594787254' status='passed' stop='1522594787285'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-1/clear</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='bff2d480-2948-460c-905f-23a614d9e311-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594787285' status='passed' stop='1522594787455'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-1/value</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='058f1d34-3c37-4cb6-ae9c-3c22755cdd13-attachment.json' type='application/json' size='431'/>
+                        <attachment title='Response' source='36de54a6-7d62-4c91-9606-dcf26c7176b4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594788464' status='passed' stop='1522594788510'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c5db7c7-4cb2-4c38-a7e1-0d92b38b28c4-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='ac17bb7a-2445-4540-a74a-1874ce49c036-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594788513' status='passed' stop='1522594788552'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-2/clear</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='7ac2d34a-65a4-437b-9822-90a6d0bc81f4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594788552' status='passed' stop='1522594788685'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-2/value</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='25a0953b-b8e5-4a8d-b757-ee050fd81bb0-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='f002ef8f-757e-4911-bc48-8e872b586dbb-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594789695' status='passed' stop='1522594789729'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6723cad6-c505-45a8-b97f-1d4c2b3e5852-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='aea280be-6c24-436a-8bbb-76a5eaeb90cd-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594789731' status='passed' stop='1522594791268'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-3/click</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/element/0.8669301361827848-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='58dd552a-c3e1-426d-af9f-b13317cf62bc-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522594792278' status='passed' stop='1522594793227'>
+                    <name>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/url</name>
+                    <title>POST /wd/hub/session/02d76912e0394bdd30ced862ed05ada5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6b22afaa-0dd4-4d00-a29c-5cae12d1e556-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='94754904-e374-4af0-9434-f4f030407364-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect is not defined</message>
+                <stack-trace>ReferenceError: expect is not defined
+                    at Context.&lt;anonymous> (C:\Users\Renato\Desktop\Test\test\login.js:14:3)
+                    at C:\Users\Renato\Desktop\Test\node_modules\wdio-sync\build\index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (C:\Users\Renato\Desktop\Test\node_modules\core-js\library\modules\_export.js:36:28)
+                    at Context.executeSync (C:\Users\Renato\Desktop\Test\node_modules\wdio-sync\build\index.js:588:12)
+                    at C:\Users\Renato\Desktop\Test\node_modules\wdio-sync\build\index.js:759:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
